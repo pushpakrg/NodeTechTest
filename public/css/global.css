@@ -1,0 +1,43 @@
+* {
+ box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    font-family:  sans-serif, Tahoma;
+    font-size: 14px;
+    height: 100%;
+}
+
+label {
+    color: gray;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    border: solid 1px #ddd;
+    padding: 10px;
+}
+
+input[type=submit] {
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit].primary {
+    background-color: #00bceb;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #00bceb;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
